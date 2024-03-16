@@ -4,6 +4,7 @@ import HeaderSite from '../HeaderSite/HeaderSite';
 import MainSite from '../MainSite/MainSite';
 import callIcon from '../../images/call.png';
 import './site.css';
+import ImagesSlider from '../ImagesSlider/ImagesSlider';
 
 const Site = () => {
     return (
@@ -12,6 +13,7 @@ const Site = () => {
             <MainSite />
             <ClassTable />
             <Card />
+            <ImagesSlider />
 
             <a href="tel:+37499888021" className="call">
                 <img src={callIcon} alt="call"/>
