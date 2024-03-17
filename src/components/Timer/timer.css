@@ -1,0 +1,52 @@
+.timerParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timerParent .heading {
+    padding: 20px 10px;
+    text-align: center;
+    color: #fff;
+    height: 100px;
+}
+
+.timerParent .heading .heading1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: Tahoma;
+}
+
+.timerParent .heading .headingDate {
+    font-size: 30px;
+}
+
+.timerParent .timer {
+    width: 320px;
+    height: 100px;
+    padding: 2rem 0 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fddd16;
+    margin: 2rem 0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.timerParent a {
+    max-width: 250px;
+    height: 60px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fddd16;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    border-radius: 8px;
+}
