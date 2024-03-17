@@ -20,6 +20,7 @@ const CardSlider = () => {
     return (
         <div className="cardSliderParent">
             <div className="container">
+                <h6>կարծիքներ</h6>
                 <Swiper
                     effect={'cards'}
                     grabCursor={true}
