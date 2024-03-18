@@ -43,7 +43,7 @@
 }
 
 .cardSliderItem .textBlock p {
-    margin: 20px 0;
+    margin: 20px;
 }
 
 .cardSliderItem .textBlock::-webkit-scrollbar {
