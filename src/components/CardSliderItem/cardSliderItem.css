@@ -10,6 +10,7 @@
     align-items: center;
     gap: 20px;
     cursor: pointer;
+    position: relative;
 }
 
 .cardSliderItem img {
@@ -23,4 +24,22 @@
     font-size: 20px;
     font-family: Tahoma;
     text-transform: uppercase;
+}
+
+.cardSliderItem .textBlock {
+    width: 100%;
+    height: inherit;
+    background: #fff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Tahoma;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.cardSliderItem .textBlock:hover {
+    opacity: 1;
 }
