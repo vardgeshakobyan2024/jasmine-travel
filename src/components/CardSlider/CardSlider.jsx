@@ -43,8 +43,8 @@ const CardSlider = () => {
                 <div className="cardSlider">
                     <CardSliderItem data={data[index]} name={data[index].fullName}/>
                     <div className="sliderBtns">
-                        <i class="fa-solid fa-circle-left" onClick={goPrev}></i>
-                        <i class="fa-solid fa-circle-right" onClick={goNext}></i>
+                        <i className="fa-solid fa-circle-left" onClick={goPrev}></i>
+                        <i className="fa-solid fa-circle-right" onClick={goNext}></i>
                     </div>
                 </div>
             </div>

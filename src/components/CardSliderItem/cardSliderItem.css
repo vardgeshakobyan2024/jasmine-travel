@@ -37,8 +37,13 @@
     text-align: center;
     font-family: Tahoma;
     opacity: 0;
-    padding: 5px;
+    padding: 10px;
+    overflow: auto;
     transition: all .5s;
+}
+
+.cardSliderItem .textBlock::-webkit-scrollbar {
+    width: 10px;
 }
 
 .cardSliderItem .textBlock:hover {
