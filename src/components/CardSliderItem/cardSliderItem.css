@@ -1,0 +1,26 @@
+.cardSliderItem {
+    width: 330px;
+    height: 400px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.cardSliderItem img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.cardSliderItem h4 {
+    font-size: 20px;
+    font-family: Tahoma;
+    text-transform: uppercase;
+}

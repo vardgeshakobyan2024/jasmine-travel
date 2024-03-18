@@ -6,6 +6,7 @@ import callIcon from '../../images/call.png';
 import './site.css';
 import ImagesSlider from '../ImagesSlider/ImagesSlider';
 import Timer from '../Timer/Timer';
+import CardSlider from '../CardSlider/CardSlider';
 
 const Site = () => {
     return (
@@ -15,6 +16,7 @@ const Site = () => {
             <ClassTable />
             <Card />
             <Timer />
+            <CardSlider />
             <ImagesSlider />
 
             <a href="tel:+37499888021" className="call">
