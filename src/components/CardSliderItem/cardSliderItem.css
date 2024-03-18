@@ -37,7 +37,6 @@
     text-align: center;
     font-family: Tahoma;
     opacity: 0;
-    padding: 10px;
     overflow: auto;
     transition: all .5s;
 }
