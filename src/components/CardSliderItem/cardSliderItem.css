@@ -50,6 +50,18 @@
     width: 10px;
 }
 
+.cardSliderItem .textBlock::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.cardSliderItem .textBlock::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+.cardSliderItem .textBlock::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
 .cardSliderItem .textBlock:hover {
     opacity: 1;
 }
