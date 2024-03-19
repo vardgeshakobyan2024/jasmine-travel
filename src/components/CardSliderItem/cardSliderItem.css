@@ -36,7 +36,6 @@
     align-items: center;
     text-align: center;
     font-family: Tahoma;
-    padding: 2px;
     opacity: 0;
     overflow: auto;
     transition: all .5s;
@@ -44,6 +43,8 @@
 
 .cardSliderItem .textBlock p {
     margin: 20px;
+    margin-top: 50px;
+    user-select: none;
 }
 
 .cardSliderItem .textBlock::-webkit-scrollbar {
