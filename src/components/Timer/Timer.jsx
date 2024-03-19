@@ -10,7 +10,7 @@ const Timer = () => {
     let initerval = useRef();
 
     const startTimer = () => {
-        const countDownDate = new Date('May 30, 2024 00:00:00').getTime();
+        const countDownDate = new Date('April 18, 2024 00:00:00').getTime();
 
         initerval = setInterval(() => {
             const now = new Date().getTime();
@@ -49,7 +49,7 @@ const Timer = () => {
                 </div>
                 <div className="heading">
                     <h4 className="heading1">դասերի սկիզբ</h4>
-                    <h4 className="headingDate">30.05.2024</h4>
+                    <h4 className="headingDate">18.04.2024</h4>
                 </div>
                 <div className="timer">
                     <h1>{timerDays} : {timerHours} : {timerMinutes} : {timerSeconds}</h1>
