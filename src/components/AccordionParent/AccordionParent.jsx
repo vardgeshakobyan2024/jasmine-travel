@@ -45,6 +45,7 @@ const AccordionParent = () => {
     return (
         <div className="accordionParent">
             <div className="container">
+                <h6>առաջարկվող <br /> փաթեթներ</h6>
                 {
                     accordionData.map((el) => {
                         return (
