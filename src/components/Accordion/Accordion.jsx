@@ -21,7 +21,15 @@ const Accordion = ({ text, items, active, setActive }) => {
                 </div>
             </div>
             <div className={(active === text ? "showAccordionBody" : "accordionBody")}>
-                    
+                <ul type="square">
+                    {
+                        items.map((el, idx) => {
+                            return (
+                                <li key={idx}>{el}</li>
+                            )
+                        })
+                    }
+                </ul>
             </div>
         </div>
     )
