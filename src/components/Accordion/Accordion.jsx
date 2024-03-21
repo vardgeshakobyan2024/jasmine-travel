@@ -1,6 +1,6 @@
 import './accordion.css';
 
-const Accordion = ({ text, items, active, setActive }) => {
+const Accordion = ({ text, items, active, setActive, price }) => {
     return (
         <div className="accordion">
             <div className="accordionHeading">
@@ -21,6 +21,10 @@ const Accordion = ({ text, items, active, setActive }) => {
                 </div>
             </div>
             <div className={(active === text ? "showAccordionBody" : "accordionBody")}>
+                <h3>
+                    <i className="fa-solid fa-money-bill"></i>
+                    {price}
+                </h3>
                 <ul type="square">
                     {
                         items.map((el, idx) => {
