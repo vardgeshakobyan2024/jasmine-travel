@@ -7,6 +7,7 @@ import './site.css';
 import ImagesSlider from '../ImagesSlider/ImagesSlider';
 import Timer from '../Timer/Timer';
 import CardSlider from '../CardSlider/CardSlider';
+import AccordionParent from '../AccordionParent/AccordionParent';
 
 const Site = () => {
     return (
@@ -14,6 +15,7 @@ const Site = () => {
             <HeaderSite />
             <MainSite />
             <ClassTable />
+            <AccordionParent />
             <Card />
             <Timer />
             <CardSlider />
