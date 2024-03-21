@@ -2,8 +2,10 @@
     max-width: 400px;
     padding: 10px;
     margin: 10px auto;
-    background: #E7B4EC;
+    background: #2c62e0;
     font-weight: 600;
+    color: #fff;
+    overflow: hidden;
 }
 
 .accordionHeading {

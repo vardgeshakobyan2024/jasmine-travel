@@ -54,6 +54,7 @@ const CardSlider = () => {
     return (
         <div className="cardSliderParent">
             <div className="container">
+                <h6>կարծիքներ</h6>
                 <div className="cardSlider">
                     <CardSliderItem data={data[index]} name={data[index].fullName}/>
                     <div className="sliderBtns">
