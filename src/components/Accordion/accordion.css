@@ -1,52 +1,39 @@
 .accordion {
     max-width: 400px;
-    margin: 18px auto;
-    font-family: arial;
-}
-
-.accordionHeading {
-    background: #dfbb2d;
-    padding: 14px 20px;
-}
-
-.accordionHeading .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.accordionHeading p {
-    letter-spacing: 1.2px;
+    padding: 10px;
+    margin: 10px auto;
+    background: #E7B4EC;
     font-weight: 600;
 }
 
-.accordionHeading span {
+.accordionHeading .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.accordionHeading .text {
+    font-size: 14px;
+}
+
+.accordionHeading i {
+    font-size: 20px;
     cursor: pointer;
 }
 
-.accordionContent {
-    background-color: #fddd16;
+.accordion .accordionBody {
+    width: 100%;
     height: 0;
     opacity: 0;
-    display: flex;
-    overflow: hidden;
-    transition: all 600ms ease-in-out;
+    transition: all .8s ease-in-out;
 }
 
-.showaccordionContent {
-    background-color: #fddd16;
-    display: flex;
-    overflow: hidden;
-    padding: 14px 20px;
+.accordion .showAccordionBody {
+    width: 100%;
+    height: 300px;
     opacity: 1;
-    transition: all 600ms ease-in-out;
-}
-
-.showaccordionContent .container {
-    padding: 10px;
-}
-
-.accordionContent ul {
-    font-size: 12px;
-    line-height: 1.6;
+    padding: 10px 20px;
+    transition: all .8s ease-in-out;
 }

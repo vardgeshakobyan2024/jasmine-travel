@@ -5,28 +5,23 @@ const Accordion = ({ text, items, active, setActive }) => {
         <div className="accordion">
             <div className="accordionHeading">
                 <div className="container">
-                    <p>{text}</p>
-                    <span onClick={() => {
-                        if (active) {
-                            setActive("");
-                        } else {
-                            setActive(text)
-                        }
-                    }}>{active === text ? "X" : "|||"}</span>
+                    <div className="icon">
+                        <i className="fa-solid fa-book"></i>
+                    </div>
+                    <div className="text">{text}</div>
+                    <div className="select">
+                        <i className="fa-solid fa-up-down" onClick={()=> {
+                            if (active) {
+                                setActive("");
+                            } else {
+                                setActive(text);
+                            }
+                        }}></i>
+                    </div>
                 </div>
             </div>
-            <div className={(active === text ? "showaccordionContent" : "accordionContent")}>
-                <div className="container">
-                    <ul>
-                        {
-                            items.map((el, idx) => {
-                                return (
-                                    <li key={idx}>{el}</li>
-                                )
-                            })
-                        }
-                    </ul>
-                </div>
+            <div className={(active === text ? "showAccordionBody" : "accordionBody")}>
+                    
             </div>
         </div>
     )
