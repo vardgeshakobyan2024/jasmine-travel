@@ -59,4 +59,5 @@
 
 .accordion .showAccordionBody ul {
     display: block;
+    text-align: left;
 }
