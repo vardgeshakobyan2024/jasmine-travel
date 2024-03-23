@@ -2,6 +2,7 @@ import CardItem from '../CardItem/CardItem';
 import './card.css';
 import Evoca from '../../images/evoca.png';
 import Idram from '../../images/idram.png';
+import Acba from '../../images/acba.png';
 
 const Card = () => {
     const cardInform = [
@@ -16,6 +17,12 @@ const Card = () => {
             cardNumber: "1181 8008 5219 00",
             name: "Hasmik Petrosyan",
             images: Idram
+        },
+        {
+            id: 3,
+            cardNumber: "2200 9793 2705 000",
+            name: "Hasmik Petrosyan",
+            images: Acba
         }
     ]
 
