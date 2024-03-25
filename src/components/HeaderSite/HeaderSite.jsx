@@ -22,7 +22,7 @@ const HeaderSite = () => {
                         </a>
 
                         <div className="headerBottom">
-                            <p>առաջին անգամ <br /> Հայաստանում</p>
+                            <p>առաջին անգամ <br /> Հայաստանում <br /> Հասանելիություն աշխարհի <br /> ցանկացած կետից</p>
                         </div>
                     </div>
                 </div>
