@@ -10,7 +10,7 @@ const Timer = () => {
     let initerval = useRef();
 
     const startTimer = () => {
-        const countDownDate = new Date('April 18, 2024 00:00:00').getTime();
+        const countDownDate = new Date('October 1, 2024 00:00:00').getTime();
 
         initerval = setInterval(() => {
             const now = new Date().getTime();
