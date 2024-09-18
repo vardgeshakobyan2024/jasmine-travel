@@ -45,11 +45,11 @@ const Timer = () => {
             <div className="container">
                 <div className="heading">
                     <h4 className="heading1">վաճառքի մեկնարկը</h4>
-                    <h4 className="headingDate">02.02.2024</h4>
+                    <h4 className="headingDate">18.09.2024</h4>
                 </div>
                 <div className="heading">
                     <h4 className="heading1">դասերի սկիզբ</h4>
-                    <h4 className="headingDate">18.04.2024</h4>
+                    <h4 className="headingDate">1.10.2024</h4>
                 </div>
                 <div className="timer">
                     <h1>{timerDays} : {timerHours} : {timerMinutes} : {timerSeconds}</h1>
